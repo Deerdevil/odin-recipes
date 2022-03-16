@@ -1,2 +1,5 @@
 # odin-recipes
-first odin project
+
+First odin project.
+
+Make a webpage containing food recipes.
