@@ -12,14 +12,24 @@ body {
     rgba(0, 255, 225, 1) 100%
   );
 }
-
-li {
+p {
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-bottom: 0.5em;
+}
+.paragraphs > p:last-child {
+  margin-bottom: 1.5em;
+}
+ul > li {
   width: 30%;
   text-decoration: none;
   list-style: none;
   padding: 0.2em;
   text-align: center;
   border-bottom: 1px solid black;
+}
+ol > li {
+  padding: 0.2em;
 }
 
 a {
@@ -32,11 +42,21 @@ h1 {
   padding-top: 1em;
   text-align: center;
   margin: 2em 1em 2.5em;
+  border-bottom: 1px solid black;
+  width: 30%;
 }
-
+h3 {
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  text-align: center;
+}
 .container {
   background-color: rgb(240, 240, 231);
   width: 900px;
+  height: 90vh;
   margin: auto;
   inline: 0;
   position: relative;
@@ -44,4 +64,8 @@ h1 {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   box-shadow: 1px 10px 22px 3px #1d1b1b;
+}
+img {
+  width: auto;
+  height: 400px;
 }
